@@ -1,0 +1,15 @@
+{
+  "name": "speech-recognizer",
+  "version": "1.0.0",
+  "description": "Local Expo module: Multi-language speech recognition for Android",
+  "main": "build/index.js",
+  "types": "build/index.d.ts",
+  "expo": {
+    "autolinking": {
+      "android": {
+        "sourceDir": "android/src/main/java",
+        "packageName": "expo.modules.speechrecognizer"
+      }
+    }
+  }
+}
